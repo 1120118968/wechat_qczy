@@ -1,0 +1,18 @@
+<!--pages/technician_detail/technician_detail.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+</swiper>
+<text class="ar_cont_h1">志愿团队介绍:</text>
+<view class='function_container'>
+    <view class='function_item' wx:for="{{functions}}" wx:for-index="idx" wx:for-item="function">
+        <image class='function_img' src='{{function.pic_url}}'/> 
+        <view class='function_name'>{{function.name}}</view>
+    </view>
+  </view>
+

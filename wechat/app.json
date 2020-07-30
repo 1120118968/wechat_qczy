@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/book/book",
+    "pages/technician/technician",
+    "pages/edit_addr/edit_addr",
+    "pages/location/location",
+    "pages/mycenter/mycenter",
+    "pages/technician_detail/technician_detail",
+    "pages/link/link",
+    "pages/login/login",
+    "pages/zhiyuanfuwu/zhiyanfuwu",
+    "pages/advice/advice"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "青橙志愿",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#d24a58",
+    "backgroundColor": "#f6f6f7",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index_icon.png",
+        "selectedIconPath": "images/index_icon_HL.png"
+      },
+      {
+        "pagePath": "pages/technician/technician",
+        "text": "志愿友人",
+        "iconPath": "images/skill_icon.png",
+        "selectedIconPath": "images/skill_icon_HL.png"
+      },
+      {
+        "pagePath": "pages/location/location",
+        "text": "身边的志愿",
+        "iconPath": "images/user_icon.png",
+        "selectedIconPath": "images/user_icon_HL1.png"
+      },
+      {
+        "pagePath": "pages/mycenter/mycenter",
+        "text": "个人中心",
+        "iconPath": "images/user_icon.png",
+        "selectedIconPath": "images/user_icon_HL.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

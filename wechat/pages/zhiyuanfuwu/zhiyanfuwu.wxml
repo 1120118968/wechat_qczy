@@ -1,0 +1,33 @@
+<view class="content">
+  <view class="line"></view>
+  <view class="wrapper">
+    <view class="search">
+      <image src="../images/d.png" style="width:25px;height:23px;"></image>
+    </view>
+    <view><input  placeholder="服务搜索"/></view>
+  </view>
+  <view class="line"></view>
+  <view class="title">
+    <view class="pre">自定义分类</view>
+    <view class="last">任意选择两个可放在首页上</view>
+  </view>
+  <view class="menu">
+     <button class="btn">献血服务</button>
+     <button class="btn">社区服务</button>
+  </view>
+   <view class="menu">
+     <button class="btn">献爱心</button>
+     <button class="btn">指挥交通</button>
+  </view>
+   <view class="menu">
+     <button class="btn">募捐</button>
+     <button class="btn">探访孤寡老人</button>
+  </view>
+   <view class="menu">
+     <button class="btn">让座</button>
+     <button class="btn">送温暖手套</button>
+  </view>
+   
+   
+   
+</view>

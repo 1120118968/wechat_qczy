@@ -1,0 +1,74 @@
+<view class="amountBg">
+  <view class="img">
+    <image src="../../images/login01.png" style="width:49px;height:47px;"></image>
+  </view>
+  <view class="account">
+    <view>{{userInfo.nickName}}</view>
+    <view bindtap='manage' >账号管理</view>
+     <view bindtap='login'>立即登录</view>
+  </view>
+  <view class="nav">></view>
+</view>
+<view class="content">
+    <view class="order">
+        <view class="desc">
+           <view><image src="../../images/locate.png" style="width:50px;height:50px;"></image></view>
+           <view bindtap='serverPoint'>志愿者服务点</view>
+        </view>
+        <view class="desc">
+           <view><image src="../../images/time.png" style="width:50px;height:50px;"></image></view>
+           <view bindtap='ServerTime'>志愿者活动时间</view>
+        </view>
+    </view>
+      <view class="line"></view>
+    <view class="clear"></view>
+
+
+
+  <view class="line"></view>
+   <view class="item">
+<view class="icon"><image src="../../images/5.png" style="width:22px;height:21px;"></image></view>
+    <view class="itemName">
+        <view bindtap='Server'>志愿服务</view>
+          <view class="line"></view>
+    </view>
+    <view class="right"><text class="opr"></text>></view>
+  </view>
+  <view class="hr"></view>
+     <view class="item">
+<view class="icon"><image src="../../images/7.png" style="width:22px;height:21px;"></image></view>
+    <view class="itemName">
+        <view bindtap='yaoqing'>邀请好友吧</view>
+          <view class="line"></view>
+    </view>
+    <view class="right" bindtap="grabTicket"><text class="opr">一起来志愿</text>></view>
+  </view>
+  <view class="hr"></view>
+     <view class="item">
+<view class="icon"><image src="../../images/a.png" style="width:22px;height:21px;"></image></view>
+    <view class="itemName">
+        <view bindtap='chat'>消息中心</view>
+          <view class="line"></view>
+    </view>
+    <view class="right"><text class="opr">志愿服务</text>></view>
+      <view class="line"></view>
+  </view>
+  <view class="hr"></view>
+     <view class="item">
+<view class="icon"><image src="../../images/d.png" style="width:22px;height:21px;"></image></view>
+    <view class="itemName">
+        <view bindtap='advice'>提出意见</view>
+          <view class="line"></view>
+    </view>
+    <view class="right">></view>
+  </view>
+  <view class="hr"></view>
+     <view class="item">
+<view class="icon"><image src="../../images/c.png" style="width:22px;height:21px;"></image></view>
+    <view class="itemName">
+        <view bindtap='more'>更多</view>
+          <view class="line"></view>
+    </view>
+    <view class="right">></view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 30 30rpx;
+}
+
+.page-body-button {
+  margin-bottom: 60rpx;
+}

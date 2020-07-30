@@ -1,0 +1,22 @@
+<view class="listWrap" data-c_e_id="wx_view848f9f58">
+  <view class="listitem01" data-c_e_id="wx_viewcdacad14">
+    <view class="wx-view_pOFBSt" data-c_e_id="wx_viewbe7a81e9" />
+  </view>
+</view>
+<view bindtap="tap_de01fdb6" class="listitemWrap" data-c_e_id="wx_view687aaf2e">
+  <view class="image_thumbView" data-c_e_id="wx_view1ae8f9cf">
+    <navigator class="image_thumbView" data-c_e_id="wx_navigatora2558f19" hover-class="navigator-hover">
+      <image class="image_thumb" data-c_e_id="wx_image7450ae92" mode="aspectFit" src="../../images/001.png" />
+    </navigator>
+  </view>
+  <text class="text_description" data-c_e_id="wx_text354d27cc">提出你的意见</text>
+  <view class="listitemInfoWrap" data-c_e_id="wx_view309b339d">
+    <view class="likeinfo" data-c_e_id="wx_viewcc4e89cb">
+      <icon class="wx-icon_tijX5I" data-c_e_id="wx_icon_f4dede3d" size="23" type="success" />
+    </view>
+    <text class="listitem_creattime" data-c_e_id="wx_text8c8804b3">2019年6月1号</text>
+  </view>
+</view>
+<textarea class="c-block c-fullwidth wx-textarea_V5MakO" data-c_e_id="wx_textarea_5ef219ef" name="textarea1" placeholder="This is a textarea" type="textarea" />
+<navigator class="wx-navigator_jGU05L" data-c_e_id="wx_navigator_dce6bec8" hover-class="navigator-hover" open-type="redirect" />
+<button class="wx-button_Y3PDck" data-c_e_id="wx_button_408d3dd3" hover-class="button-hover" size="default" type="default">提交您的建议</button>
